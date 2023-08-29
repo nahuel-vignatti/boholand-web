@@ -1,0 +1,48 @@
+.contacto{
+font-size: 1rem;
+width: 70%;
+margin-top: 5rem;
+   
+    &__titulo{
+        font-family: "Yeseva One", cursive;
+    font-size: 4em;}
+    &__texto{
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 1.5em;
+        }
+    &__informacion{
+        &__items{
+            font-family: "Montserrat", sans-serif;
+        }
+    }
+    &__formulario{
+        &__input{
+            margin-top: 2em;;
+            width: 100%;
+            height: 2.5em;
+            border: 3px solid #434343;
+            font-size: 1.5em;
+        }
+        &__consulta{
+            margin-top: 3em;
+            width: 100%;
+            border: 3px solid #434343;
+            font-size: 1.5em;
+        }
+        &__boton{
+            font-family: "Montserrat", sans-serif;
+            margin-top: 1em;
+            width: 7em;
+            height: 2.2em;
+            font-size: 1.5em;
+            border: 3px solid #434343;
+        }
+    }
+}
+@media screen and (max-width: 576px){
+
+    .contacto{
+        font-size: 0.8rem;
+    }
+
+}

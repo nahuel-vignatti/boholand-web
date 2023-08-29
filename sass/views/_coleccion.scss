@@ -1,0 +1,66 @@
+.textocoleccion {
+  font-size: 1rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__frase {
+    font-family: "Yeseva One", cursive;
+    font-size: 2.5em;
+  }
+  &__linea {
+    width: 0.05rem;
+    height: 6rem;
+    background-color: #434343;
+  }
+}
+.imgcoleccion {
+  font-size: 1rem;
+  gap: 5%;
+  padding: 0% 10%;
+  &__producto {
+    margin-top: 5rem;
+    max-width: 30rem;
+    &__img {
+      @extend .img_responsive;
+      max-width: 30rem;
+    }
+    &__num {
+      font-family: "Yeseva One", cursive;
+      font-size: 5em;
+      max-width: 2rem;
+      color: #434343;
+      position: relative;
+      transform: translate(585%, 60%);
+     
+    }
+    &__descripcion {
+      font-size: 1.6em;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .textocoleccion {
+    font-size: 0.8rem;
+  }
+  .imgcoleccion {
+    &__producto {
+      &__descripcion {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .imgcoleccion {
+    &__producto {
+      &__num {
+        
+        transform: translate(460%, 60%);
+       
+      }
+
+    }
+  }
+  }

@@ -1,0 +1,55 @@
+.pie {
+  font-size: 1rem;
+  margin-top: 10rem;
+  &__imagen {
+    @extend .img_responsive;
+    max-width: 8em;
+    margin-left: 1em;
+  }
+  &__textos {
+    text-align: center;
+
+    &__frase {
+      font-family: brittany;
+      font-size: 3em;
+    }
+    &__firma {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2em;
+      margin-top: 1.5em;
+    }
+  }
+  &__redes {
+    margin-right: 1.5em;
+    & a {
+      &:nth-child(1) {
+        margin-right: 2em;
+      }
+      &:nth-child(2) {
+        margin-right: 2em;
+      }
+    }
+    &__iconos {
+      font-size: 3em;
+      color: black;
+    }
+    &__iconos:hover {
+      color: #434343;
+    }
+  }
+}
+@media screen and(max-width:768px) {
+  .pie {
+    font-size: 0.8rem;
+    margin-top: 10rem;
+    &__imagen {
+      margin-left: 0;
+    }
+    &__textos {
+      margin-top: 1.5em;
+    }
+    &__redes {
+      margin-right: 0;
+    }
+  }
+}

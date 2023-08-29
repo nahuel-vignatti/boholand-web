@@ -1,0 +1,48 @@
+.barra {
+  &__titulo {
+    font-family: brittany;
+    font-size: 5rem;
+    color: #293731;
+    .barra {
+      a {
+        font-size: 3rem;
+      }
+      &__titulo {
+        font-family: brittany;
+        font-size: 5rem;
+        color: #293731;
+        transform: translateX(-11px);
+      }
+    }
+  }
+}
+
+header nav ul {
+  width: 100%;
+  li {
+    width: 20%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    .nav-link {
+      font-weight: bold;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+  }
+}
+@media screen and(max-width: 768px) {
+  header nav ul {
+    li {
+      .nav-link {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .barra {
+    &__titulo {
+      font-size: 3rem;
+      transform: translateX(-7px);
+    }
+  }
+}

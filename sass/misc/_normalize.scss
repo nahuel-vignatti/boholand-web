@@ -1,0 +1,33 @@
+html
+{
+  font-size: 62.5%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  /*background-image: url("../multimedia/backgroundproyectofinal.png");
+    background-size:contain;*/
+  width: 100%;
+  border: solid #293731 4.5px;
+  overflow-x: hidden;
+}
+.fondo1 {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.fondo2 {
+  background-color: #f9f5f0;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 50%;
+}

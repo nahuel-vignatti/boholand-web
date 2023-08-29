@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "brittany";
+    src: url("../fonts/BrittanySignature.ttf");
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+  
+  @import "./misc/utilities";
+  
+  @import "./misc/normalize";
+ 
+  
+  @import "./partials/header";
+  @import "./partials/footer";
+  
+  @import "./views/coleccion";
+  @import "./views/home";
+  @import "./views/contacto";
+  @import "./views/quienessomos";
+  
+  
+  
